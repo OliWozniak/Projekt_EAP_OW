@@ -621,6 +621,10 @@
     [
       "fc91144e-0e07-42a9-888c-118bbfe121ea",
       "MCU"
+    ],
+    [
+      "72d2fae6-7f1c-4250-8e41-28ee178afbef",
+      "Photodiode"
     ]
   ],
   "text_variables": {}
