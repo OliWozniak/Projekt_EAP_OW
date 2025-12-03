@@ -5,9 +5,965 @@
 	(uuid "3d853824-a92e-40a5-ad1a-5052c8a0bd68")
 	(paper "A4")
 	(lib_symbols)
+	(bus_entry
+		(at 190.5 71.12)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0342e3bd-d859-48b7-b4ab-a31d1e00e5f0")
+	)
+	(bus_entry
+		(at 193.04 71.12)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15b10540-2eaf-4dee-9fcf-ea55f0ec7559")
+	)
+	(bus_entry
+		(at 116.84 71.12)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ddb1f96-36c2-479f-9442-03733b51c873")
+	)
+	(bus_entry
+		(at 187.96 71.12)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fe9377f-a333-462d-8df0-8fc6cbbf66a8")
+	)
+	(bus_entry
+		(at 152.4 71.12)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bba3533-465a-49fe-9009-634e4817c8d4")
+	)
+	(bus_entry
+		(at 234.95 71.12)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ca0885b-28eb-4f15-a504-9f12c41bc240")
+	)
+	(bus_entry
+		(at 157.48 71.12)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "485d819a-ebc4-4349-848b-845bcf6a0148")
+	)
+	(bus_entry
+		(at 114.3 71.12)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c54343f-fd6d-41f1-85b8-fc58edbf8082")
+	)
+	(bus_entry
+		(at 111.76 71.12)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eab953b-cf70-41b2-b6cc-9ac7b8b99ec0")
+	)
+	(bus_entry
+		(at 229.87 71.12)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "956c85cf-b870-4dc0-a9aa-65eb8c69fa69")
+	)
+	(bus_entry
+		(at 195.58 71.12)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c9f100e-f104-4e00-81fc-2f41513875d7")
+	)
+	(bus_entry
+		(at 109.22 71.12)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a42a5c04-edd6-4928-b0e2-eb949b0b1b97")
+	)
+	(bus_entry
+		(at 149.86 71.12)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1f192dd-dfff-4099-8d13-d6c742a81be0")
+	)
+	(bus_entry
+		(at 154.94 71.12)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c752adad-4ccd-442c-955b-581fbf2e79b1")
+	)
+	(bus_entry
+		(at 237.49 71.12)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebe0c8e0-6773-4c98-8d35-7616126a1e0c")
+	)
+	(bus_entry
+		(at 232.41 71.12)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5ef25c4-6778-4984-b20e-944753fd2521")
+	)
+	(wire
+		(pts
+			(xy 240.03 57.15) (xy 241.3 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09897c49-6730-445e-b645-7699afae03a2")
+	)
+	(bus
+		(pts
+			(xy 152.4 71.12) (xy 154.94 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14f087a4-4b5e-4a99-badd-da95402b3d3f")
+	)
+	(wire
+		(pts
+			(xy 116.84 45.72) (xy 121.92 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "159688c5-fed1-41c5-adff-6736047b4da3")
+	)
+	(bus
+		(pts
+			(xy 111.76 71.12) (xy 114.3 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cbbacf2-076f-45fe-8b60-bc6c91ed57c9")
+	)
+	(wire
+		(pts
+			(xy 157.48 45.72) (xy 162.56 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "351606d8-2502-4377-b5eb-eda2ea3d65d2")
+	)
+	(bus
+		(pts
+			(xy 154.94 71.12) (xy 157.48 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38293eb3-1b45-4421-b267-a92f055c7d61")
+	)
+	(wire
+		(pts
+			(xy 198.12 68.58) (xy 198.12 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38e3655b-2857-44b0-97b1-37587c676c4c")
+	)
+	(wire
+		(pts
+			(xy 198.12 57.15) (xy 200.66 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39046abe-f34f-42f3-900f-7decf1bfea75")
+	)
+	(wire
+		(pts
+			(xy 157.48 68.58) (xy 157.48 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a7552d1-1dd7-4628-8d9d-c2fe6185f264")
+	)
+	(wire
+		(pts
+			(xy 190.5 68.58) (xy 190.5 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b36a75e-481f-4051-b024-3f0b59f53d66")
+	)
+	(wire
+		(pts
+			(xy 232.41 68.58) (xy 232.41 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b886be7-0e46-4ac7-90fc-3a82375b40da")
+	)
+	(wire
+		(pts
+			(xy 154.94 34.29) (xy 162.56 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cf5c8f4-1a2d-411f-a4df-e070ecb59292")
+	)
+	(bus
+		(pts
+			(xy 157.48 71.12) (xy 187.96 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44a0922c-9fc6-4842-9389-b02111ee43c9")
+	)
+	(wire
+		(pts
+			(xy 190.5 22.86) (xy 200.66 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4650f4b4-bca0-4716-b690-2afac6d70e2c")
+	)
+	(wire
+		(pts
+			(xy 152.4 22.86) (xy 162.56 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47ff83a2-368c-489f-94e5-69ff7c7fde58")
+	)
+	(bus
+		(pts
+			(xy 114.3 71.12) (xy 116.84 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c52ae16-c1ec-40fe-b0cf-1f73e4442a5b")
+	)
+	(bus
+		(pts
+			(xy 187.96 71.12) (xy 190.5 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e916d0c-b167-48d8-8f55-ae0088f19ba5")
+	)
+	(wire
+		(pts
+			(xy 237.49 68.58) (xy 237.49 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "590b7015-cf3e-4c39-aff3-7fe945417923")
+	)
+	(bus
+		(pts
+			(xy 190.5 71.12) (xy 193.04 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a2aa2e0-8839-4b43-8203-55dd3c330dfa")
+	)
+	(bus
+		(pts
+			(xy 193.04 71.12) (xy 195.58 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c05a236-fdd4-4e76-be8e-3d206f30be9e")
+	)
+	(wire
+		(pts
+			(xy 121.92 57.15) (xy 119.38 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e055e32-5099-413b-8af6-154e17cdeed7")
+	)
+	(wire
+		(pts
+			(xy 237.49 45.72) (xy 241.3 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e8073bd-a995-4bd3-aed5-ce552f52219c")
+	)
+	(wire
+		(pts
+			(xy 234.95 68.58) (xy 234.95 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76c402c4-3c4e-452d-b6e9-f5fc7d4ac648")
+	)
+	(wire
+		(pts
+			(xy 234.95 34.29) (xy 241.3 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7958f0b0-7811-42ae-b89b-c936868b9886")
+	)
+	(wire
+		(pts
+			(xy 119.38 57.15) (xy 119.38 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79c72f89-bbb2-49c6-b1ff-e4f42da62779")
+	)
+	(wire
+		(pts
+			(xy 154.94 68.58) (xy 154.94 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8004ce60-1ebb-4155-acfa-cdbe5f52e2a3")
+	)
+	(bus
+		(pts
+			(xy 232.41 71.12) (xy 234.95 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8138716d-326e-4d2c-98bd-0908be0fa5e7")
+	)
+	(wire
+		(pts
+			(xy 160.02 57.15) (xy 160.02 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a59a086-5cb7-4389-b94d-a9cefb221303")
+	)
+	(wire
+		(pts
+			(xy 111.76 68.58) (xy 111.76 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8acd0a00-8b0b-47f8-af08-f8941fadadea")
+	)
+	(bus
+		(pts
+			(xy 116.84 71.12) (xy 149.86 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e961573-f73b-4cfa-90ae-f58d989c4847")
+	)
+	(bus
+		(pts
+			(xy 195.58 71.12) (xy 229.87 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "970e95ee-05f6-43af-9967-73b33cd184d3")
+	)
+	(bus
+		(pts
+			(xy 234.95 71.12) (xy 237.49 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "990309ca-7b40-43dd-984b-3baf4f92d74d")
+	)
+	(wire
+		(pts
+			(xy 195.58 68.58) (xy 195.58 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3fa95a6-f77a-4396-a7cd-b4b98bc97745")
+	)
+	(wire
+		(pts
+			(xy 114.3 34.29) (xy 121.92 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a58e37c7-8a03-424c-943c-e4d2164b588b")
+	)
+	(wire
+		(pts
+			(xy 111.76 22.86) (xy 121.92 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9614544-7ee4-4e21-ab8d-194cec4f9e40")
+	)
+	(wire
+		(pts
+			(xy 195.58 45.72) (xy 200.66 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad93ab0c-0f6a-47b6-a225-dfedd7293ba4")
+	)
+	(wire
+		(pts
+			(xy 162.56 57.15) (xy 160.02 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adb5bc54-71fd-47f1-bd72-2d9f2e037b25")
+	)
+	(wire
+		(pts
+			(xy 232.41 22.86) (xy 241.3 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aee05fa1-94e1-4ef8-9e20-c9e636d078f7")
+	)
+	(wire
+		(pts
+			(xy 152.4 68.58) (xy 152.4 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4eed99f-4077-4485-bb78-faa952faae6d")
+	)
+	(bus
+		(pts
+			(xy 109.22 71.12) (xy 111.76 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c852d61a-1ccb-4128-9a58-521fc047b13f")
+	)
+	(wire
+		(pts
+			(xy 193.04 68.58) (xy 193.04 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dde215d7-e047-4e78-a08a-c4f2354c7d43")
+	)
+	(wire
+		(pts
+			(xy 116.84 68.58) (xy 116.84 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df715173-afc7-41de-924b-cb03e5de6f81")
+	)
+	(wire
+		(pts
+			(xy 240.03 68.58) (xy 240.03 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e96a6524-be3e-4427-b939-591808285c19")
+	)
+	(bus
+		(pts
+			(xy 101.6 137.16) (xy 101.6 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea375c13-579b-44c0-bb2e-319c7a1c86c1")
+	)
+	(wire
+		(pts
+			(xy 114.3 68.58) (xy 114.3 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb1788b8-e75d-48ce-bdcd-c3753b6c594c")
+	)
+	(bus
+		(pts
+			(xy 237.49 71.12) (xy 241.3 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee4520da-4c3c-47f2-85fc-2a68ba893901")
+	)
+	(wire
+		(pts
+			(xy 193.04 34.29) (xy 200.66 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f30e13aa-db7c-4bc4-a73d-02feea689534")
+	)
+	(bus
+		(pts
+			(xy 149.86 71.12) (xy 152.4 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f406c701-0dd5-4d6c-b13d-ff4df4120530")
+	)
+	(bus
+		(pts
+			(xy 101.6 71.12) (xy 109.22 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fecda21f-9aef-454f-b49b-d5512ae0c495")
+	)
+	(bus
+		(pts
+			(xy 229.87 71.12) (xy 232.41 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fee5c79e-997a-4ecd-a830-15469e27935e")
+	)
 	(sheet
-		(at 182.88 34.29)
-		(size 20.32 15.24)
+		(at 200.66 54.61)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "07fe4f33-6397-414b-b2be-832c2dff9b0b")
+		(property "Sheetname" "Photodiode11"
+			(at 200.66 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sheets/photodiode.kicad_sch"
+			(at 200.66 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SIGNAL" output
+			(at 200.66 57.15 180)
+			(uuid "0726c632-875e-4bf0-897f-af45a17b0290")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "uMule_board"
+				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 241.3 31.75)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0f258c8e-9703-4673-b4c7-f124691cf50c")
+		(property "Sheetname" "Photodiode13"
+			(at 241.3 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sheets/photodiode.kicad_sch"
+			(at 241.3 37.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SIGNAL" output
+			(at 241.3 34.29 180)
+			(uuid "05d6f8a3-18e0-4419-b12d-fc9fc108227b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "uMule_board"
+				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 200.66 31.75)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "32500d3e-45db-4bc5-aac2-1d81d85c4dee")
+		(property "Sheetname" "Photodiode9"
+			(at 200.66 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sheets/photodiode.kicad_sch"
+			(at 200.66 37.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SIGNAL" output
+			(at 200.66 34.29 180)
+			(uuid "ae0ee628-a6d1-40fb-b797-dabc3846b5d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "uMule_board"
+				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 121.92 54.61)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4fcfef20-d64a-4329-8811-7060d238fa4f")
+		(property "Sheetname" "Photodiode3"
+			(at 121.92 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sheets/photodiode.kicad_sch"
+			(at 121.92 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SIGNAL" output
+			(at 121.92 57.15 180)
+			(uuid "80f3c40f-2f91-4508-9d2b-cb87815b36e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "uMule_board"
+				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 121.92 31.75)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5641e395-cf2e-4e12-b936-6f3bc4a5f0d7")
+		(property "Sheetname" "Photodiode1"
+			(at 121.92 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sheets/photodiode.kicad_sch"
+			(at 121.92 37.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SIGNAL" output
+			(at 121.92 34.29 180)
+			(uuid "f9fba446-e761-4054-8f9b-a211023b1c5d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "uMule_board"
+				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 162.56 54.61)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7285f331-37ae-42db-9aa2-003e541bd7ae")
+		(property "Sheetname" "Photodiode7"
+			(at 162.56 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sheets/photodiode.kicad_sch"
+			(at 162.56 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SIGNAL" output
+			(at 162.56 57.15 180)
+			(uuid "cb29b201-3ed6-4740-b727-e3611402fcf8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "uMule_board"
+				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 121.92 20.32)
+		(size 12.7 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -21,8 +977,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "72d2fae6-7f1c-4250-8e41-28ee178afbef")
-		(property "Sheetname" "Photodiode"
-			(at 182.88 33.5784 0)
+		(property "Sheetname" "Photodiode0"
+			(at 121.92 19.6084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +987,7 @@
 			)
 		)
 		(property "Sheetfile" "sheets/photodiode.kicad_sch"
-			(at 182.88 50.1146 0)
+			(at 121.92 25.9846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39,10 +995,228 @@
 				(justify left top)
 			)
 		)
+		(pin "SIGNAL" output
+			(at 121.92 22.86 180)
+			(uuid "649f5605-1a1b-41b8-81c4-b21be5ca4a2d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "uMule_board"
 				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 121.92 43.18)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7c4aca43-433c-403a-98e3-514dbc67f3cf")
+		(property "Sheetname" "Photodiode2"
+			(at 121.92 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sheets/photodiode.kicad_sch"
+			(at 121.92 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SIGNAL" output
+			(at 121.92 45.72 180)
+			(uuid "4d190af1-36c9-4831-8847-6e8572c0c8d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "uMule_board"
+				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 241.3 54.61)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "98166567-4daa-43ab-8380-927a3d582c00")
+		(property "Sheetname" "Photodiode15"
+			(at 241.3 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sheets/photodiode.kicad_sch"
+			(at 241.3 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SIGNAL" output
+			(at 241.3 57.15 180)
+			(uuid "f4eb971e-ff3d-4493-8e78-77700b15c8c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "uMule_board"
+				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 200.66 20.32)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a0d9f176-37a4-4c35-a8d2-b9acdb70ebc4")
+		(property "Sheetname" "Photodiode8"
+			(at 200.66 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sheets/photodiode.kicad_sch"
+			(at 200.66 25.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SIGNAL" output
+			(at 200.66 22.86 180)
+			(uuid "45bbb31f-43e6-4c44-bb02-b11113affb50")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "uMule_board"
+				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 200.66 43.18)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c1fecb10-0d68-4546-ba81-752ef24ab7a3")
+		(property "Sheetname" "Photodiode10"
+			(at 200.66 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sheets/photodiode.kicad_sch"
+			(at 200.66 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SIGNAL" output
+			(at 200.66 45.72 180)
+			(uuid "ddbf3862-90ee-423e-acde-63c28c82b249")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "uMule_board"
+				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68"
+					(page "14")
 				)
 			)
 		)
@@ -170,8 +1344,216 @@
 		)
 	)
 	(sheet
-		(at 109.22 30.48)
-		(size 38.1 54.61)
+		(at 162.56 20.32)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cd1002f3-d1fe-4aeb-b677-52437dca98e9")
+		(property "Sheetname" "Photodiode4"
+			(at 162.56 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sheets/photodiode.kicad_sch"
+			(at 162.56 25.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SIGNAL" output
+			(at 162.56 22.86 180)
+			(uuid "bcd4271a-048c-4a22-a9e6-a40f2e86406e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "uMule_board"
+				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 241.3 43.18)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d173e343-2d20-4481-82a7-9733f46f3a1a")
+		(property "Sheetname" "Photodiode14"
+			(at 241.3 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sheets/photodiode.kicad_sch"
+			(at 241.3 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SIGNAL" output
+			(at 241.3 45.72 180)
+			(uuid "cdf691ca-174c-4496-837b-8fe406958abb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "uMule_board"
+				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 162.56 43.18)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d715deda-8f2c-4a9b-a161-91e0d3471f6a")
+		(property "Sheetname" "Photodiode6"
+			(at 162.56 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sheets/photodiode.kicad_sch"
+			(at 162.56 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SIGNAL" output
+			(at 162.56 45.72 180)
+			(uuid "e5a2e6d1-64df-4885-81aa-539c3d00b433")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "uMule_board"
+				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 162.56 31.75)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ee000162-e206-43cb-b9e4-243b7e25906b")
+		(property "Sheetname" "Photodiode5"
+			(at 162.56 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sheets/photodiode.kicad_sch"
+			(at 162.56 37.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SIGNAL" output
+			(at 162.56 34.29 180)
+			(uuid "1eec2ff7-0b18-4365-9bc8-d6549964ee00")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "uMule_board"
+				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 33.02 80.01)
+		(size 59.69 69.85)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -186,7 +1568,7 @@
 		)
 		(uuid "fc91144e-0e07-42a9-888c-118bbfe121ea")
 		(property "Sheetname" "MCU"
-			(at 109.22 29.7684 0)
+			(at 33.02 79.2984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -195,7 +1577,7 @@
 			)
 		)
 		(property "Sheetfile" "sheets/mcu.kicad_sch"
-			(at 109.22 85.6746 0)
+			(at 33.02 150.4446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -203,10 +1585,222 @@
 				(justify left top)
 			)
 		)
+		(pin "PA0{slash}ADC123_IN0" input
+			(at 92.71 83.82 0)
+			(uuid "5c91d7ed-4b66-4ddb-a341-47adb5c622b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PA1{slash}ADC123_IN1" input
+			(at 92.71 87.63 0)
+			(uuid "bc994275-4d02-4422-bc42-e91fd07d24de")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PA2{slash}ADC123_IN2" input
+			(at 92.71 91.44 0)
+			(uuid "837cae42-7ac2-4f37-8561-4c18cccf8b2c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PA3{slash}ADC123_IN3" input
+			(at 92.71 95.25 0)
+			(uuid "37dcb22d-0acb-4e2a-9fcf-3cae5f82c265")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PA4{slash}ADC12_IN4" input
+			(at 92.71 99.06 0)
+			(uuid "8450652d-f71b-4c2c-b866-ebd3f506f0dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PA5{slash}ADC12_IN5" input
+			(at 92.71 102.87 0)
+			(uuid "1beb772b-b6dd-49a7-b3c6-ea64825f5969")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PA6{slash}ADC12_IN6" input
+			(at 92.71 106.68 0)
+			(uuid "8e619c28-68fe-4ef1-b95f-53ad37a3a027")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PA7{slash}ADC12_IN7" input
+			(at 92.71 110.49 0)
+			(uuid "1d500656-13e7-4dd5-bef8-c3c8eeeaff1c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PB1{slash}ADC12_IN8" input
+			(at 92.71 114.3 0)
+			(uuid "4b89cb2c-92c7-4178-b606-faf5cbf4b32b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PB1{slash}ADC12_IN9" input
+			(at 92.71 118.11 0)
+			(uuid "1b719e69-e248-4f66-aeb7-2811b398f97f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PC0{slash}ADC123_IN10" input
+			(at 92.71 121.92 0)
+			(uuid "7ccf7000-3c13-451e-aca8-44f69bde8bb9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PC1{slash}ADC123_IN11" input
+			(at 92.71 125.73 0)
+			(uuid "e10dc8cb-1794-4f6e-b6a0-9debcef6aa02")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PC2{slash}ADC123_IN12" input
+			(at 92.71 129.54 0)
+			(uuid "f4e440b8-f10f-47b5-a65d-bbc03ffc5110")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PC3{slash}ADC123_IN13" input
+			(at 92.71 133.35 0)
+			(uuid "076a9fc3-b8da-4eb5-8413-8bf355a32f89")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PC4{slash}ADC12_IN14" input
+			(at 92.71 137.16 0)
+			(uuid "81bf978e-5710-49e4-aabb-6501962fc453")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PC5{slash}ADC12_IN15" input
+			(at 92.71 140.97 0)
+			(uuid "74a1dfd4-8721-43c3-a383-b345032cf3d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "uMule_board"
 				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 241.3 20.32)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fe364a62-d4a1-4eb5-a740-ba5eb9664e6e")
+		(property "Sheetname" "Photodiode12"
+			(at 241.3 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sheets/photodiode.kicad_sch"
+			(at 241.3 25.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SIGNAL" output
+			(at 241.3 22.86 180)
+			(uuid "27451239-6fc3-4dc0-aa3b-fb28d01661d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "uMule_board"
+				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68"
+					(page "16")
 				)
 			)
 		)
