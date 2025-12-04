@@ -2831,6 +2831,16 @@
 		)
 		(uuid "adff8378-3bf9-4d13-a709-ed6597e6d913")
 	)
+	(text "Powinno być *RET"
+		(exclude_from_sim no)
+		(at 157.988 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "db468b78-bedf-472f-bbb2-dcf25c1cde22")
+	)
 	(junction
 		(at 140.97 45.72)
 		(diameter 0)
