@@ -1,0 +1,672 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "5ddc1c4c-b08f-496f-8ff9-8d8f3f0d51d2")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 41.91 44.45) (xy 46.99 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02b4c87d-10ec-4c2f-8891-4d77700ca534")
+	)
+	(wire
+		(pts
+			(xy 41.91 71.12) (xy 46.99 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09611d0f-a633-4f13-afba-100655e7ae47")
+	)
+	(wire
+		(pts
+			(xy 80.01 86.36) (xy 74.93 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10a67585-240b-41fc-b273-7f583662769f")
+	)
+	(wire
+		(pts
+			(xy 41.91 113.03) (xy 46.99 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "211d3551-3c52-4c48-a83c-f34867eeaab9")
+	)
+	(wire
+		(pts
+			(xy 80.01 116.84) (xy 74.93 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25db9689-5a29-4a29-b879-01e5dd1e968b")
+	)
+	(wire
+		(pts
+			(xy 80.01 93.98) (xy 74.93 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26ed6ef0-9917-4ccf-a8b1-23a3a73a7573")
+	)
+	(wire
+		(pts
+			(xy 41.91 116.84) (xy 46.99 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eab9bbd-e522-455f-bd42-d82b2400faf4")
+	)
+	(wire
+		(pts
+			(xy 80.01 71.12) (xy 74.93 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc13752c-fbb4-4ec8-bd21-1f18426dd09b")
+	)
+	(wire
+		(pts
+			(xy 41.91 93.98) (xy 46.99 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8d536ad-d115-4c39-89a1-889b5bf30463")
+	)
+	(wire
+		(pts
+			(xy 80.01 48.26) (xy 74.93 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d25734ef-9d7f-4090-be0e-d6a7384684ad")
+	)
+	(wire
+		(pts
+			(xy 41.91 67.31) (xy 46.99 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d25dad36-bcb7-4ba2-b9c1-79d8396b0646")
+	)
+	(wire
+		(pts
+			(xy 80.01 63.5) (xy 74.93 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e014071e-b38e-43c7-82da-c3ff0974de00")
+	)
+	(wire
+		(pts
+			(xy 80.01 109.22) (xy 74.93 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e982fa28-e502-49be-a8a8-0a02a2e8077e")
+	)
+	(wire
+		(pts
+			(xy 80.01 40.64) (xy 74.93 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2858b17-1b2d-44da-8fa1-1402366beb78")
+	)
+	(wire
+		(pts
+			(xy 41.91 48.26) (xy 46.99 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa9f6b57-4a92-4cd2-b661-cb6f9dfbf72a")
+	)
+	(wire
+		(pts
+			(xy 41.91 90.17) (xy 46.99 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc83a1cc-1181-462e-8286-89e2852b1863")
+	)
+	(hierarchical_label "GND_OUTPUTS"
+		(shape passive)
+		(at 80.01 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "02e2930d-0e4c-4001-804f-7813593ed912")
+	)
+	(hierarchical_label "GND_OUTPUTS"
+		(shape passive)
+		(at 80.01 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "043991ff-ff9d-4fa2-a7da-708eaf627c3f")
+	)
+	(hierarchical_label "OUT_0"
+		(shape input)
+		(at 41.91 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "07bfbe84-2e5f-4cee-9eb3-47dcf96c904a")
+	)
+	(hierarchical_label "VCC_OUTPUTS"
+		(shape passive)
+		(at 80.01 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4f799fea-5082-4aad-b65d-b1f81e80d8bc")
+	)
+	(hierarchical_label "VCC_OUTPUTS"
+		(shape passive)
+		(at 80.01 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5a7fb0d4-c610-4cd4-b406-6749c151797d")
+	)
+	(hierarchical_label "OUT_3"
+		(shape input)
+		(at 41.91 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "68bb909f-733a-4468-a652-fd86897f525c")
+	)
+	(hierarchical_label "OUT_2"
+		(shape input)
+		(at 41.91 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "80d33a0b-c5e1-47b6-b6d7-99599cebd477")
+	)
+	(hierarchical_label "VCC_OUTPUTS"
+		(shape passive)
+		(at 80.01 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "958f6139-3ac9-4be8-b198-0f6dc3701498")
+	)
+	(hierarchical_label "GND_OUTPUTS"
+		(shape passive)
+		(at 80.01 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "98025266-9e7b-4536-b6e4-8f96d75727f0")
+	)
+	(hierarchical_label "OUT_1"
+		(shape input)
+		(at 41.91 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9e1403d1-1aac-4846-8bb8-9a71bcaca285")
+	)
+	(hierarchical_label "VCC_OUTPUTS"
+		(shape passive)
+		(at 80.01 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ad7461f8-5af1-4eee-8c83-985d6e2f04aa")
+	)
+	(hierarchical_label "GND_LOGIC"
+		(shape passive)
+		(at 41.91 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c0001d55-0f1c-4847-a5b5-60d9606a1f87")
+	)
+	(hierarchical_label "GND_LOGIC"
+		(shape passive)
+		(at 41.91 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cadc4453-403e-40e4-8ef2-2816235d36eb")
+	)
+	(hierarchical_label "GND_OUTPUTS"
+		(shape passive)
+		(at 80.01 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dbada8cc-94da-4089-a225-152a528a2c67")
+	)
+	(hierarchical_label "GND_LOGIC"
+		(shape passive)
+		(at 41.91 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f5f7a884-de3e-4f67-9944-0e0a23ded41e")
+	)
+	(hierarchical_label "GND_LOGIC"
+		(shape passive)
+		(at 41.91 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fced097e-8c1b-46c7-b0c6-073c3b5377e6")
+	)
+	(sheet
+		(at 46.99 60.96)
+		(size 27.94 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "328cb5d1-b8a5-4985-a713-a644ee663ca3")
+		(property "Sheetname" "Output1"
+			(at 46.99 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "output.kicad_sch"
+			(at 46.99 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND_LOGIC" passive
+			(at 46.99 71.12 180)
+			(uuid "ef085597-a4a2-4188-b8ad-ab9601e5bb15")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND_OUTPUT" passive
+			(at 74.93 71.12 0)
+			(uuid "b2638fb4-3df5-4de5-a29d-cb055bc33a5e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT" input
+			(at 46.99 67.31 180)
+			(uuid "5e2967d9-c4bc-4c5b-b866-61be3436d28f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCC_OUTPUT" passive
+			(at 74.93 63.5 0)
+			(uuid "b450327c-7eed-4714-a13b-c410ea1ac0e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "uMule_board"
+				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 46.99 106.68)
+		(size 27.94 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3443d5ab-c555-4ef5-a350-e2b79450261a")
+		(property "Sheetname" "Output3"
+			(at 46.99 105.9684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "output.kicad_sch"
+			(at 46.99 119.9646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND_LOGIC" passive
+			(at 46.99 116.84 180)
+			(uuid "4f3d12c7-b9f1-4327-8433-788081f73412")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND_OUTPUT" passive
+			(at 74.93 116.84 0)
+			(uuid "6d3dd09b-c248-4205-a248-02b216394155")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT" input
+			(at 46.99 113.03 180)
+			(uuid "3349cfce-8d9f-45a4-b594-651a60cc7104")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCC_OUTPUT" passive
+			(at 74.93 109.22 0)
+			(uuid "08cc9a7f-86cb-482b-90de-93bb7f321839")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "uMule_board"
+				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3"
+					(page "25")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 46.99 83.82)
+		(size 27.94 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "51c7aa87-9195-4d7c-a036-e5befef63cef")
+		(property "Sheetname" "Output2"
+			(at 46.99 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "output.kicad_sch"
+			(at 46.99 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND_LOGIC" passive
+			(at 46.99 93.98 180)
+			(uuid "1d2b85b0-35af-46db-ba95-664991de52a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND_OUTPUT" passive
+			(at 74.93 93.98 0)
+			(uuid "1285efa8-05de-4380-bc58-a4ed9d3b8ed2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT" input
+			(at 46.99 90.17 180)
+			(uuid "1b0f65ea-51b5-44e2-97ca-2d0864dcaba9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCC_OUTPUT" passive
+			(at 74.93 86.36 0)
+			(uuid "b580a517-5f8c-4170-9bd8-2ce09d9a8e67")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "uMule_board"
+				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3"
+					(page "24")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 46.99 38.1)
+		(size 27.94 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fe21b85d-d64b-472a-a59d-3aafbbef6114")
+		(property "Sheetname" "Output0"
+			(at 46.99 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "output.kicad_sch"
+			(at 46.99 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND_LOGIC" passive
+			(at 46.99 48.26 180)
+			(uuid "6d912947-b51c-4986-a59e-befd34010236")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND_OUTPUT" passive
+			(at 74.93 48.26 0)
+			(uuid "92860fea-d809-4ec9-afa4-3d74c8faf583")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT" input
+			(at 46.99 44.45 180)
+			(uuid "035ddeb9-72e4-4fb2-9476-4592c0a3542e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCC_OUTPUT" passive
+			(at 74.93 40.64 0)
+			(uuid "817212c0-2c75-4b04-a565-f9f28d7b4a46")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "uMule_board"
+				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3"
+					(page "23")
+				)
+			)
+		)
+	)
+)

@@ -430,7 +430,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -473,6 +473,51 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "Analog",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(0, 165, 124)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "I2C",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgb(196, 9, 255)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgb(255, 0, 0)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "SPI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(255, 116, 0)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "UART",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgb(12, 117, 255)",
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -480,6 +525,12 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/Communication/A": [
+        "RS485"
+      ],
+      "/Communication/B": [
+        "RS485"
+      ],
       "/RS485/A": [
         "RS485"
       ],
@@ -487,7 +538,256 @@
         "RS485"
       ]
     },
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": ""
+      },
+      {
+        "netclass": "Power",
+        "pattern": "VCC"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+3V3"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Power/VSUP+"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "/MCU/I2C1_SDA"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "/MCU/I2C1_SCL"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Power/R_SHUNT_+"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Power/DC_CONV_IN"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "/Communication/DI"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "/Communication/RO"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "/Communication/VCP_TX"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "/Communication/VCP_RX"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "/Communication/A"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "/Communication/B"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Communication/SWCLK"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "/Communication/A"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "/Communication/B"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "/Communication/RO"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "/Communication/RS485_FC"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "/Communication/DI"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "/Communication/VCP_RX"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "/Communication/VCP_TX"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/MCU/PB12{slash}SPI2_NSS"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/MCU/PB13{slash}SPI2_SCK"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/MCU/PB14{slash}SPI2_MISO"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/MCU/PB15{slash}SPI_MOSI"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "/PHO_15"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "/PHO_14"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "/PHO_13"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "/PHO_12"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "/PHO_11"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "/PHO_10"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "/PHO_7"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "/PHO_6"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "/PHO_5"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "/PHO_4"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "/PHO_3"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "/PHO_2"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "/PHO_1"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "/PHO_0"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "/PHO_8"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "/PHO_9"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "/PHO_*"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "/MCU/PB10{slash}UART3_TX"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "/MCU/PB11{slash}UART3_RX"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Outputs/VCC_OUTPUTS"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "/MCU/PA11{slash}RS485_FC"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "/MCU/PD2{slash}UART5_RX"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "/MCU/PC12{slash}UART5_TX"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "/Communication/RS485_RO"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "/Communication/RS485_DI"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "/Communication/Li-Dar_TX"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "/Communication/Li-Dar_RX"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "/Communication/ESP32_TX"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "/Communication/ESP32_RX"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/Communication/SPI_SCK"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/Communication/SPI_MISO"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/Communication/SPI_MOSI"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/Communication/CS"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "/Communication/I2C_SCL"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "/Communication/I2C_SDA"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -567,14 +867,38 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "jlc",
+          "name": "jlc",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Name",
+          "name": "Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Opis",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Oznaczenie"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -694,8 +1018,8 @@
       "Photodiode15"
     ],
     [
-      "a5cee1e6-7912-400c-bde2-b9255149fe12",
-      "RS485"
+      "328cb5d1-b8a5-4985-a713-a644ee663ca3",
+      "Output1"
     ],
     [
       "6627633c-9ae5-4253-9ddc-73b5516d7e53",
@@ -704,6 +1028,26 @@
     [
       "09940b78-7107-436f-9fae-587995b124f4",
       "Communication"
+    ],
+    [
+      "ec64de63-3af2-4cbd-9a0d-077aa0c298c3",
+      "Outputs"
+    ],
+    [
+      "fe21b85d-d64b-472a-a59d-3aafbbef6114",
+      "Output0"
+    ],
+    [
+      "51c7aa87-9195-4d7c-a036-e5befef63cef",
+      "Output2"
+    ],
+    [
+      "3443d5ab-c555-4ef5-a350-e2b79450261a",
+      "Output3"
+    ],
+    [
+      "88c1cf25-48b5-4442-a726-08f7df56ca6b",
+      "GPIO"
     ]
   ],
   "text_variables": {}
