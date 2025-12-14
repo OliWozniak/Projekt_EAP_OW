@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "26bdeb64-3854-49ad-b1a9-9fd69a4b9a43")
 	(paper "A4")
+	(title_block
+		(title "uMule_board")
+		(date "2025-12-14")
+		(rev "1.0")
+		(comment 1 "Original author: Oliwier Woźniak")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
@@ -147,156 +153,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -343,6 +199,15 @@
 				)
 			)
 			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -744,36 +609,43 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Small"
+		(symbol "Diode:SS34"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 0.254)
+				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "R"
-				(at 0.762 0.508 0)
+			(property "Reference" "D"
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
+			(property "Value" "SS34"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -782,7 +654,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Description" "40V 3A Schottky Diode, SMA"
 				(at 0 0 0)
 				(effects
 					(font
@@ -791,7 +663,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor, small symbol"
+			(property "ki_keywords" "diode Schottky"
 				(at 0 0 0)
 				(effects
 					(font
@@ -800,7 +672,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "R resistor"
+			(property "ki_fp_filters" "D*SMA*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -809,21 +681,37 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "SS34_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
 					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Small_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
 					(stroke
-						(width 0.2032)
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -831,11 +719,11 @@
 					)
 				)
 			)
-			(symbol "R_Small_1_1"
+			(symbol "SS34_1_1"
 				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -851,9 +739,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "~"
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -871,7 +759,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Isolator:PC817"
+		(symbol "Isolator:LTV-817S"
 			(pin_names
 				(offset 1.016)
 			)
@@ -879,45 +767,40 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -5.08 5.08 0)
+				(at -3.81 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "PC817"
-				(at 0 5.08 0)
+			(property "Value" "LTV-817S"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
-				(at -5.08 -5.08 0)
+			(property "Footprint" "Package_DIP:SMDIP-4_W9.53mm"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
-					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf"
-				(at 0 0 0)
+			(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
+				(at -8.89 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Description" "DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4"
+			(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-4"
 				(at 0 0 0)
 				(effects
 					(font
@@ -935,7 +818,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "DIP*W7.62mm*"
+			(property "ki_fp_filters" "SMDIP*W9.53mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -944,7 +827,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "PC817_0_1"
+			(symbol "LTV-817S_1_1"
 				(rectangle
 					(start -5.08 3.81)
 					(end 5.08 -3.81)
@@ -958,7 +841,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 2.54) (xy -2.54 2.54) (xy -2.54 -0.635)
+						(xy -5.08 2.54) (xy -2.54 2.54) (xy -2.54 -0.762)
 					)
 					(stroke
 						(width 0)
@@ -1030,7 +913,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 1.905) (xy 2.54 -1.905) (xy 2.54 -1.905)
+						(xy 2.54 1.905) (xy 2.54 -1.905)
 					)
 					(stroke
 						(width 0.508)
@@ -1054,7 +937,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.048 -1.651) (xy 3.556 -1.143) (xy 4.064 -2.159) (xy 3.048 -1.651) (xy 3.048 -1.651)
+						(xy 3.048 -1.651) (xy 3.556 -1.143) (xy 4.064 -2.159) (xy 3.048 -1.651)
 					)
 					(stroke
 						(width 0)
@@ -1100,8 +983,6 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "PC817_1_1"
 				(pin passive line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -1744,16 +1625,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 92.075) (xy 143.51 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf46f326-4481-4012-8b79-b7ab5e67b830")
-	)
-	(wire
-		(pts
 			(xy 139.7 76.2) (xy 143.51 76.2)
 		)
 		(stroke
@@ -1761,16 +1632,6 @@
 			(type default)
 		)
 		(uuid "c40fa2f0-77fe-484d-a7ea-d7d6a7394c05")
-	)
-	(wire
-		(pts
-			(xy 143.51 83.82) (xy 143.51 84.455)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7eaabbc-5475-42e7-b883-9fd5410907d3")
 	)
 	(wire
 		(pts
@@ -1881,170 +1742,6 @@
 		(uuid "e3eee12f-7e16-430d-b164-7466e3b9f027")
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 152.4 85.09 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0fc8ce5f-c97b-4b81-ade9-cfa755750817")
-		(property "Reference" "D1"
-			(at 155.575 84.455 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "SS34"
-			(at 154.305 85.725 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 152.4 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 152.4 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "96a2aa54-d160-413e-a052-f4c9706309f6")
-		)
-		(pin "2"
-			(uuid "6c63c75e-03c9-4967-bb30-b48d9dbc48ea")
-		)
-		(instances
-			(project "uMule_board"
-				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/328cb5d1-b8a5-4985-a713-a644ee663ca3"
-					(reference "D1")
-					(unit 1)
-				)
-				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/3443d5ab-c555-4ef5-a350-e2b79450261a"
-					(reference "D11")
-					(unit 1)
-				)
-				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/51c7aa87-9195-4d7c-a036-e5befef63cef"
-					(reference "D9")
-					(unit 1)
-				)
-				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/fe21b85d-d64b-472a-a59d-3aafbbef6114"
-					(reference "D14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 143.51 88.265 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1109edec-d380-4b04-a55a-626d9c7de8ca")
-		(property "Reference" "D8"
-			(at 147.32 89.2175 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "OUT"
-			(at 147.32 91.7575 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 143.51 88.265 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 88.265 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 143.51 88.265 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "588954c6-4a38-48ed-8abe-36b5c984d3ea")
-		)
-		(pin "2"
-			(uuid "a24f7e6c-75cb-482c-a1ae-b70fe0539ba6")
-		)
-		(instances
-			(project "uMule_board"
-				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/328cb5d1-b8a5-4985-a713-a644ee663ca3"
-					(reference "D8")
-					(unit 1)
-				)
-				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/3443d5ab-c555-4ef5-a350-e2b79450261a"
-					(reference "D12")
-					(unit 1)
-				)
-				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/51c7aa87-9195-4d7c-a036-e5befef63cef"
-					(reference "D10")
-					(unit 1)
-				)
-				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/fe21b85d-d64b-472a-a59d-3aafbbef6114"
-					(reference "D13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:AON6411")
 		(at 127 69.85 0)
 		(mirror x)
@@ -2055,7 +1752,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "314d06e4-73fc-44fa-b637-ee94fa6b681e")
-		(property "Reference" "Q3"
+		(property "Reference" "Q2"
 			(at 133.35 68.5799 0)
 			(effects
 				(font
@@ -2120,7 +1817,7 @@
 		(instances
 			(project "uMule_board"
 				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/328cb5d1-b8a5-4985-a713-a644ee663ca3"
-					(reference "Q3")
+					(reference "Q2")
 					(unit 1)
 				)
 				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/3443d5ab-c555-4ef5-a350-e2b79450261a"
@@ -2132,7 +1829,7 @@
 					(unit 1)
 				)
 				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/fe21b85d-d64b-472a-a59d-3aafbbef6114"
-					(reference "Q2")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -2148,7 +1845,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f22956b-c0f1-4855-9093-0c8c63f4fd2c")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 172.085 76.835 0)
 			(effects
 				(font
@@ -2202,19 +1899,19 @@
 		(instances
 			(project "uMule_board"
 				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/328cb5d1-b8a5-4985-a713-a644ee663ca3"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/3443d5ab-c555-4ef5-a350-e2b79450261a"
-					(reference "J6")
+					(reference "J11")
 					(unit 1)
 				)
 				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/51c7aa87-9195-4d7c-a036-e5befef63cef"
-					(reference "J5")
+					(reference "J10")
 					(unit 1)
 				)
 				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/fe21b85d-d64b-472a-a59d-3aafbbef6114"
-					(reference "J21")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -2229,7 +1926,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "53dd9773-2e09-4309-b3cd-13a2c2e81bf1")
-		(property "Reference" "F4"
+		(property "Reference" "F3"
 			(at 135.89 78.74 90)
 			(effects
 				(font
@@ -2282,7 +1979,7 @@
 		(instances
 			(project "uMule_board"
 				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/328cb5d1-b8a5-4985-a713-a644ee663ca3"
-					(reference "F4")
+					(reference "F3")
 					(unit 1)
 				)
 				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/3443d5ab-c555-4ef5-a350-e2b79450261a"
@@ -2294,7 +1991,7 @@
 					(unit 1)
 				)
 				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/fe21b85d-d64b-472a-a59d-3aafbbef6114"
-					(reference "F3")
+					(reference "F4")
 					(unit 1)
 				)
 			)
@@ -2310,7 +2007,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "691ddf7f-7cab-4a16-9004-7e255f500cff")
-		(property "Reference" "R70"
+		(property "Reference" "R68"
 			(at 96.52 74.93 90)
 			(effects
 				(font
@@ -2362,19 +2059,187 @@
 		(instances
 			(project "uMule_board"
 				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/328cb5d1-b8a5-4985-a713-a644ee663ca3"
-					(reference "R70")
+					(reference "R68")
 					(unit 1)
 				)
 				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/3443d5ab-c555-4ef5-a350-e2b79450261a"
-					(reference "R78")
+					(reference "R81")
 					(unit 1)
 				)
 				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/51c7aa87-9195-4d7c-a036-e5befef63cef"
-					(reference "R74")
+					(reference "R77")
 					(unit 1)
 				)
 				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/fe21b85d-d64b-472a-a59d-3aafbbef6114"
-					(reference "R66")
+					(reference "R73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:LTV-817S")
+		(at 109.22 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69b9ab91-025e-4c5d-8f99-bd635ecfb233")
+		(property "Reference" "U22"
+			(at 109.22 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTV-817S"
+			(at 109.22 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:SMDIP-4_W9.53mm_Clearance8mm"
+			(at 109.22 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
+			(at 100.33 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-4"
+			(at 109.22 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "f5a8deb2-ea57-4703-9976-4868f1cc1807")
+		)
+		(pin "3"
+			(uuid "6decce38-45c5-4243-9bea-8d9843f1eed1")
+		)
+		(pin "2"
+			(uuid "faf14f92-5ec7-4286-b001-c1eb004c72dd")
+		)
+		(pin "1"
+			(uuid "6a349c99-5c63-4e36-803f-bfcf1ebbd7c8")
+		)
+		(instances
+			(project ""
+				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/328cb5d1-b8a5-4985-a713-a644ee663ca3"
+					(reference "U22")
+					(unit 1)
+				)
+				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/3443d5ab-c555-4ef5-a350-e2b79450261a"
+					(reference "U26")
+					(unit 1)
+				)
+				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/51c7aa87-9195-4d7c-a036-e5befef63cef"
+					(reference "U25")
+					(unit 1)
+				)
+				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/fe21b85d-d64b-472a-a59d-3aafbbef6114"
+					(reference "U24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SS34")
+		(at 152.4 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88e382fb-e40e-4577-bb59-c17f166bea7c")
+		(property "Reference" "D9"
+			(at 154.94 83.5024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS34"
+			(at 154.94 86.0424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 147.955 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
+			(at 152.4 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 3A Schottky Diode, SMA"
+			(at 152.4 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fdba747b-fb50-41f8-b197-6595ee513e8a")
+		)
+		(pin "2"
+			(uuid "413c1602-fa56-425c-a711-b84781f12646")
+		)
+		(instances
+			(project ""
+				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/328cb5d1-b8a5-4985-a713-a644ee663ca3"
+					(reference "D9")
+					(unit 1)
+				)
+				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/3443d5ab-c555-4ef5-a350-e2b79450261a"
+					(reference "D16")
+					(unit 1)
+				)
+				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/51c7aa87-9195-4d7c-a036-e5befef63cef"
+					(reference "D14")
+					(unit 1)
+				)
+				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/fe21b85d-d64b-472a-a59d-3aafbbef6114"
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -2390,7 +2255,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "962f1afc-a55a-4353-9d46-3d6aa989028d")
-		(property "Reference" "R68"
+		(property "Reference" "R66"
 			(at 121.285 63.5 0)
 			(effects
 				(font
@@ -2444,73 +2309,72 @@
 		(instances
 			(project "uMule_board"
 				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/328cb5d1-b8a5-4985-a713-a644ee663ca3"
-					(reference "R68")
+					(reference "R66")
 					(unit 1)
 				)
 				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/3443d5ab-c555-4ef5-a350-e2b79450261a"
-					(reference "R76")
+					(reference "R79")
 					(unit 1)
 				)
 				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/51c7aa87-9195-4d7c-a036-e5befef63cef"
-					(reference "R72")
+					(reference "R75")
 					(unit 1)
 				)
 				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/fe21b85d-d64b-472a-a59d-3aafbbef6114"
-					(reference "R64")
+					(reference "R71")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Isolator:PC817")
-		(at 109.22 83.82 0)
+		(lib_id "Device:R")
+		(at 143.51 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bd6a768a-a35a-4e25-90aa-0aeeca1111d1")
-		(property "Reference" "U24"
-			(at 109.22 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "EL3H7(B)(TA)-G"
-			(at 109.22 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOP-4_4.4x2.6mm_P1.27mm"
-			(at 104.14 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811131510_Everlight-Elec-EL3H7-B-TA-G_C32565.pdf"
-			(at 109.22 83.82 0)
+		(uuid "c33a7434-184c-43c7-b216-a71e5145c029")
+		(property "Reference" "R69"
+			(at 146.05 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Value" "15k"
+			(at 146.05 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 141.732 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 109.22 83.82 0)
+		(property "Datasheet" "~"
+			(at 143.51 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 143.51 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2519,33 +2383,118 @@
 			)
 		)
 		(pin "1"
-			(uuid "08319bf5-0277-4621-a48c-b7e858e7b228")
+			(uuid "07b61f09-a00e-4e4b-a863-ed2242306104")
 		)
 		(pin "2"
-			(uuid "f047681f-048e-4625-89b0-fe49cad7a132")
-		)
-		(pin "3"
-			(uuid "f574b9a5-32bb-4d11-8c5e-fc4072bc4ae8")
-		)
-		(pin "4"
-			(uuid "9e471fbe-edd2-4532-9f86-4a56a6490192")
+			(uuid "0e84f86f-af77-4b06-8e35-6c553bb0d691")
 		)
 		(instances
-			(project "uMule_board"
+			(project ""
 				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/328cb5d1-b8a5-4985-a713-a644ee663ca3"
-					(reference "U24")
+					(reference "R69")
 					(unit 1)
 				)
 				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/3443d5ab-c555-4ef5-a350-e2b79450261a"
-					(reference "U26")
+					(reference "R82")
 					(unit 1)
 				)
 				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/51c7aa87-9195-4d7c-a036-e5befef63cef"
-					(reference "U25")
+					(reference "R78")
 					(unit 1)
 				)
 				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/fe21b85d-d64b-472a-a59d-3aafbbef6114"
-					(reference "U4")
+					(reference "R74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 143.51 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfb84740-f6dc-4f21-8757-3130b7b1563c")
+		(property "Reference" "D10"
+			(at 147.32 90.4874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 147.32 93.0274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 143.51 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 143.51 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 143.51 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "14c3b108-21ed-403a-b622-41ccbbc45cd6")
+		)
+		(pin "1"
+			(uuid "7b962768-cdec-4e39-b232-25ae2e6e7668")
+		)
+		(instances
+			(project ""
+				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/328cb5d1-b8a5-4985-a713-a644ee663ca3"
+					(reference "D10")
+					(unit 1)
+				)
+				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/3443d5ab-c555-4ef5-a350-e2b79450261a"
+					(reference "D17")
+					(unit 1)
+				)
+				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/51c7aa87-9195-4d7c-a036-e5befef63cef"
+					(reference "D15")
+					(unit 1)
+				)
+				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/fe21b85d-d64b-472a-a59d-3aafbbef6114"
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -2561,7 +2510,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5c627f9-f080-4af8-a9ae-e5ad9ed79e51")
-		(property "Reference" "R69"
+		(property "Reference" "R67"
 			(at 121.92 73.6599 0)
 			(effects
 				(font
@@ -2615,101 +2564,19 @@
 		(instances
 			(project "uMule_board"
 				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/328cb5d1-b8a5-4985-a713-a644ee663ca3"
-					(reference "R69")
-					(unit 1)
-				)
-				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/3443d5ab-c555-4ef5-a350-e2b79450261a"
-					(reference "R77")
-					(unit 1)
-				)
-				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/51c7aa87-9195-4d7c-a036-e5befef63cef"
-					(reference "R73")
-					(unit 1)
-				)
-				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/fe21b85d-d64b-472a-a59d-3aafbbef6114"
-					(reference "R65")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 143.51 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ea17850f-7626-40d1-986c-d819e55e8a37")
-		(property "Reference" "R71"
-			(at 146.05 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "15k"
-			(at 146.05 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 143.51 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 143.51 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "154aa698-cbf4-4166-a997-2e3938ae8d27")
-		)
-		(pin "2"
-			(uuid "f3db8127-a8bc-4f54-a7de-8fa1150a3205")
-		)
-		(instances
-			(project "uMule_board"
-				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/328cb5d1-b8a5-4985-a713-a644ee663ca3"
-					(reference "R71")
-					(unit 1)
-				)
-				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/3443d5ab-c555-4ef5-a350-e2b79450261a"
-					(reference "R79")
-					(unit 1)
-				)
-				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/51c7aa87-9195-4d7c-a036-e5befef63cef"
-					(reference "R75")
-					(unit 1)
-				)
-				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/fe21b85d-d64b-472a-a59d-3aafbbef6114"
 					(reference "R67")
+					(unit 1)
+				)
+				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/3443d5ab-c555-4ef5-a350-e2b79450261a"
+					(reference "R80")
+					(unit 1)
+				)
+				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/51c7aa87-9195-4d7c-a036-e5befef63cef"
+					(reference "R76")
+					(unit 1)
+				)
+				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68/ec64de63-3af2-4cbd-9a0d-077aa0c298c3/fe21b85d-d64b-472a-a59d-3aafbbef6114"
+					(reference "R72")
 					(unit 1)
 				)
 			)
