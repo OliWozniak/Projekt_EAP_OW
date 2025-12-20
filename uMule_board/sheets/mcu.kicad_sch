@@ -4757,8 +4757,8 @@
 		)
 		(uuid "29e67f03-611f-48ed-8900-922db6c5379d")
 	)
-	(hierarchical_label "PC1{slash}ADC123_IN11"
-		(shape input)
+	(hierarchical_label "PC1{slash}GPIO"
+		(shape bidirectional)
 		(at 125.73 74.93 180)
 		(effects
 			(font
@@ -4790,8 +4790,8 @@
 		)
 		(uuid "2c271f74-5249-42ce-bc79-958f32de562f")
 	)
-	(hierarchical_label "PC3{slash}ADC123_IN13"
-		(shape input)
+	(hierarchical_label "PC3{slash}GPIO"
+		(shape bidirectional)
 		(at 125.73 80.01 180)
 		(effects
 			(font
@@ -4878,8 +4878,8 @@
 		)
 		(uuid "5d2c6117-27f0-4ddb-a41f-d461d615ffd9")
 	)
-	(hierarchical_label "PC2{slash}ADC123_IN12"
-		(shape input)
+	(hierarchical_label "PC2{slash}GPIO"
+		(shape bidirectional)
 		(at 125.73 77.47 180)
 		(effects
 			(font
@@ -4889,8 +4889,8 @@
 		)
 		(uuid "67b3fcbf-6d90-4cf3-9203-eb24a1e39ca3")
 	)
-	(hierarchical_label "PC0{slash}ADC123_IN10"
-		(shape input)
+	(hierarchical_label "PC0{slash}GPIO"
+		(shape bidirectional)
 		(at 125.73 72.39 180)
 		(effects
 			(font
@@ -4933,8 +4933,8 @@
 		)
 		(uuid "76212fa5-accf-4321-8239-4a5259925c50")
 	)
-	(hierarchical_label "PB1{slash}ADC12_IN9"
-		(shape input)
+	(hierarchical_label "PB1{slash}GPIO"
+		(shape bidirectional)
 		(at 161.29 97.79 0)
 		(effects
 			(font
@@ -4944,8 +4944,8 @@
 		)
 		(uuid "76b900d0-c01b-41e2-bbc8-29c1c9b132f1")
 	)
-	(hierarchical_label "PC4{slash}ADC12_IN14"
-		(shape input)
+	(hierarchical_label "PC4{slash}GPIO"
+		(shape bidirectional)
 		(at 125.73 82.55 180)
 		(effects
 			(font
@@ -5142,8 +5142,8 @@
 		)
 		(uuid "f0207b29-08f9-49bc-ad50-34c37e948022")
 	)
-	(hierarchical_label "PB0{slash}ADC12_IN8"
-		(shape input)
+	(hierarchical_label "PB0{slash}GPIO"
+		(shape bidirectional)
 		(at 161.29 95.25 0)
 		(effects
 			(font
@@ -5153,8 +5153,8 @@
 		)
 		(uuid "f8b443c5-69dd-415e-9bf8-37b215a6646b")
 	)
-	(hierarchical_label "PC5{slash}ADC12_IN15"
-		(shape input)
+	(hierarchical_label "PC5{slash}GPIO"
+		(shape bidirectional)
 		(at 125.73 85.09 180)
 		(effects
 			(font

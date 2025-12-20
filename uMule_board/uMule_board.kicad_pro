@@ -820,6 +820,14 @@
       {
         "netclass": "RS485",
         "pattern": "/Communication/RS485+"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "/Photodiodes/PHO_*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Power/-5V"
       }
     ]
   },
@@ -1018,38 +1026,6 @@
     [
       "304bf062-9084-4acd-8653-ce29bb447012",
       "Photodiode7"
-    ],
-    [
-      "72bba8f0-7459-42e4-9e54-bb4a6b7f89ca",
-      "Photodiode8"
-    ],
-    [
-      "ac5058d2-8803-44ce-b51c-e668cfeb540d",
-      "Photodiode9"
-    ],
-    [
-      "bc4d6a90-3c41-4f75-bf34-9f79b7453a8e",
-      "Photodiode10"
-    ],
-    [
-      "fe64fe54-7dc5-480a-8e9b-552cfa7155af",
-      "Photodiode11"
-    ],
-    [
-      "3bb5e9fd-b359-4050-8cd0-6590b1297ba8",
-      "Photodiode12"
-    ],
-    [
-      "9c2366a1-9f21-462d-812f-edfa4dd7df7c",
-      "Photodiode13"
-    ],
-    [
-      "00bfe0a5-cb54-4e03-89d1-fdfae8e2dd96",
-      "Photodiode14"
-    ],
-    [
-      "c8ab0fec-f6b3-41ac-aa48-29f38940096b",
-      "Photodiode15"
     ],
     [
       "6627633c-9ae5-4253-9ddc-73b5516d7e53",
