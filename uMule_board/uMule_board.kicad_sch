@@ -403,6 +403,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:-5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "-5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"-5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "-5V_0_0"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "-5V_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:VCC"
 			(power)
 			(pin_numbers
@@ -668,15 +769,6 @@
 		(uuid "4c582f55-4f8d-401b-a025-9f5ac8668e21")
 	)
 	(bus_entry
-		(at 191.77 91.44)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52490c59-37ef-48a3-8932-c00a5788c7b3")
-	)
-	(bus_entry
 		(at 185.42 58.42)
 		(size -2.54 2.54)
 		(stroke
@@ -815,16 +907,6 @@
 	)
 	(bus
 		(pts
-			(xy 191.77 91.44) (xy 191.77 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "037f2100-49b6-40bd-8726-7c449780ae98")
-	)
-	(bus
-		(pts
 			(xy 191.77 147.32) (xy 191.77 149.86)
 		)
 		(stroke
@@ -842,6 +924,16 @@
 			(type default)
 		)
 		(uuid "0fbc66a5-20a4-4028-971a-6d40a2496c59")
+	)
+	(wire
+		(pts
+			(xy 189.23 83.82) (xy 175.26 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13e777df-dde4-4e9c-a6ca-c3f77613282e")
 	)
 	(wire
 		(pts
@@ -1213,6 +1305,16 @@
 		)
 		(uuid "79c2c271-8790-4f35-8496-7b13d7b2be34")
 	)
+	(wire
+		(pts
+			(xy 109.22 35.56) (xy 109.22 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81663ebd-48d6-4833-bcd1-0763f2ddab18")
+	)
 	(bus
 		(pts
 			(xy 185.42 39.37) (xy 185.42 50.8)
@@ -1222,6 +1324,16 @@
 			(type default)
 		)
 		(uuid "81bb1689-c679-45b3-9564-5ba010dc845f")
+	)
+	(wire
+		(pts
+			(xy 189.23 43.18) (xy 189.23 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82c5fecc-4b94-4ae5-982e-0b1b089165db")
 	)
 	(wire
 		(pts
@@ -1262,16 +1374,6 @@
 			(type default)
 		)
 		(uuid "89e83940-8892-4da5-b11e-0be81e4ca03e")
-	)
-	(wire
-		(pts
-			(xy 175.26 88.9) (xy 189.23 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8bc55e92-dd67-4241-baec-a873ba613e22")
 	)
 	(wire
 		(pts
@@ -1372,6 +1474,16 @@
 			(type default)
 		)
 		(uuid "9dce1cb0-1d08-4bdb-a535-d2ac879ecb90")
+	)
+	(wire
+		(pts
+			(xy 203.2 43.18) (xy 189.23 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a05c1824-f434-4a8c-bdf8-2c51fd08297f")
 	)
 	(wire
 		(pts
@@ -1625,6 +1737,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 48.26) (xy 80.01 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e55f13e8-a5bf-4d7f-be69-f3d49e2c09b3")
+	)
+	(wire
+		(pts
 			(xy 43.18 48.26) (xy 48.26 48.26)
 		)
 		(stroke
@@ -1823,16 +1945,6 @@
 		)
 		(uuid "8fdbd1d3-8a83-4ee1-a581-1bfdc82517dc")
 	)
-	(label "GPIO_0"
-		(at 175.26 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "989487b3-e15e-451f-9818-a9743fd9804f")
-	)
 	(label "GPIO_3"
 		(at 175.26 96.52 0)
 		(effects
@@ -1972,6 +2084,72 @@
 			(justify left bottom)
 		)
 		(uuid "f11e8cb9-d7dd-4858-89d7-58be600718ea")
+	)
+	(symbol
+		(lib_id "power:-5V")
+		(at 109.22 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a1f001f-d973-4aaa-84a0-8d04c959d0e1")
+		(property "Reference" "#PWR04"
+			(at 109.22 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-5V"
+			(at 109.22 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-5V\""
+			(at 109.22 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b80afc2-3b8b-424e-8a5b-4490bfb783b8")
+		)
+		(instances
+			(project ""
+				(path "/3d853824-a92e-40a5-ad1a-5052c8a0bd68"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -2460,7 +2638,7 @@
 	)
 	(sheet
 		(at 203.2 35.56)
-		(size 19.05 7.62)
+		(size 19.05 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2484,7 +2662,7 @@
 			)
 		)
 		(property "Sheetfile" "sheets/photodiodes_all.kicad_sch"
-			(at 203.2 43.7646 0)
+			(at 203.2 47.5746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2495,6 +2673,16 @@
 		(pin "PHO_[0..7]" output
 			(at 203.2 39.37 180)
 			(uuid "88dba4e2-3c41-4358-aaa0-48749e0b8e8a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_REF" output
+			(at 203.2 43.18 180)
+			(uuid "bdada0c1-ccdb-4080-a212-31017874c368")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2544,9 +2732,9 @@
 				(justify left top)
 			)
 		)
-		(pin "GPIO_[0..19]" bidirectional
+		(pin "GPIO_[1..19]" bidirectional
 			(at 203.2 153.67 180)
-			(uuid "be47c0e2-de77-4a74-9b73-ecbe073039d1")
+			(uuid "dc418ea4-5984-444b-a678-99c4661cbe39")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2664,6 +2852,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "-5V" output
+			(at 80.01 48.26 0)
+			(uuid "c66aa7c9-e47e-400a-892b-05ec5c1e404a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -3087,16 +3285,6 @@
 				(justify right)
 			)
 		)
-		(pin "PB0{slash}GPIO" bidirectional
-			(at 175.26 88.9 0)
-			(uuid "fe08741e-fef6-4e71-a42d-53d9903e24db")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "PB1{slash}GPIO" bidirectional
 			(at 175.26 91.44 0)
 			(uuid "c273bd53-dd70-4e4e-9d53-440611ace1ad")
@@ -3160,6 +3348,16 @@
 		(pin "PC5{slash}GPIO" bidirectional
 			(at 175.26 129.54 0)
 			(uuid "559d6d42-a1f2-4d53-8c48-0703786aefb2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PB0{slash}ADC12_IN_REF" input
+			(at 175.26 83.82 0)
+			(uuid "47162a0f-9e27-43e4-ac5a-a410d83b81bf")
 			(effects
 				(font
 					(size 1.27 1.27)

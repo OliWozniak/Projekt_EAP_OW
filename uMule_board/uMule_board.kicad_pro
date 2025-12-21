@@ -828,6 +828,14 @@
       {
         "netclass": "Power",
         "pattern": "/Power/-5V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Power/INV_CONV_IN"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "-5V"
       }
     ]
   },
@@ -1000,31 +1008,31 @@
       "Photodiode0"
     ],
     [
-      "c42d0f9a-9280-43dd-b1a8-781695e9bfad",
+      "3d848320-9b5a-4d1d-96fd-18404d029410",
       "Photodiode1"
     ],
     [
-      "183bc9f8-d8c0-49e1-864d-8ec09bfdca1c",
+      "a8ca2b78-b35d-4314-aebd-6ed032342c45",
       "Photodiode2"
     ],
     [
-      "ff046bcc-0ecf-4438-b231-ef090549f4b5",
+      "7466a1ac-136e-4fef-b4c1-1a0493ed3bc1",
       "Photodiode3"
     ],
     [
-      "8df3c370-4ee6-4ce1-815f-d4dc8190fa99",
+      "75389cf4-435c-481c-9821-947a1df6ad31",
       "Photodiode4"
     ],
     [
-      "c963b1c0-3242-4704-b0d7-ea5d0e867a39",
+      "e5315618-f713-40e5-a348-cc5f44a56836",
       "Photodiode5"
     ],
     [
-      "98fc720a-bcce-4344-a0f1-38bf6368bc8b",
+      "b0c6e98c-3394-4ece-a70e-909b048c4cbc",
       "Photodiode6"
     ],
     [
-      "304bf062-9084-4acd-8653-ce29bb447012",
+      "9ecbfd0b-dd48-4280-9c95-67635da3ac63",
       "Photodiode7"
     ],
     [
