@@ -508,7 +508,7 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "Analog",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(0, 165, 124)",
         "priority": 1,
         "schematic_color": "rgb(0, 165, 124)",
         "wire_width": 6
@@ -517,7 +517,7 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "I2C",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(196, 9, 255)",
         "priority": 4,
         "schematic_color": "rgb(196, 9, 255)",
         "wire_width": 6
@@ -526,7 +526,7 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "Power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 0, 0)",
         "priority": 5,
         "schematic_color": "rgb(255, 0, 0)",
         "wire_width": 6
@@ -535,7 +535,7 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "RS485",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(96, 93, 217)",
         "priority": 0,
         "schematic_color": "rgb(96, 93, 217)",
         "wire_width": 6
@@ -544,7 +544,7 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "SPI",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 116, 0)",
         "priority": 2,
         "schematic_color": "rgb(255, 116, 0)",
         "wire_width": 6
@@ -553,7 +553,7 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "UART",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(12, 117, 255)",
         "priority": 3,
         "schematic_color": "rgb(12, 117, 255)",
         "wire_width": 6
