@@ -2967,6 +2967,16 @@
 		)
 		(uuid e5e38b2c-78ac-4bd8-ac23-f7a85d2f8174)
 	)
+	(text "ADC1"
+		(exclude_from_sim no)
+		(at 182.626 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "012bb657-6e8f-4d1b-b89c-131b43189720")
+	)
 	(text "ESP32?"
 		(exclude_from_sim no)
 		(at 100.33 103.124 0)
@@ -2977,6 +2987,26 @@
 			(justify left)
 		)
 		(uuid "0ce481e7-6b4e-47cf-b032-ba297f224b2e")
+	)
+	(text "ADC2"
+		(exclude_from_sim no)
+		(at 188.722 57.404 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "185f6785-3991-4a7f-afc3-dc1939972fe0")
+	)
+	(text "ADC2"
+		(exclude_from_sim no)
+		(at 188.722 54.864 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "22ac30be-1dc1-4ff4-8534-489ca9159aae")
 	)
 	(text "RS485\n"
 		(exclude_from_sim no)
@@ -2989,6 +3019,116 @@
 		)
 		(uuid "23e67c5e-e1d5-41c0-b645-4222c7858ddb")
 	)
+	(text "ADC2"
+		(exclude_from_sim no)
+		(at 188.468 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "299d4d1b-fe79-47e4-8d8d-509aaea4ca36")
+	)
+	(text "ADC2"
+		(exclude_from_sim no)
+		(at 103.632 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3187ed50-91fb-4315-9ded-e1b2c7419f03")
+	)
+	(text "ADC1"
+		(exclude_from_sim no)
+		(at 185.42 95.758 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "32e860f9-b23e-4508-b7fb-dbb885da0c9b")
+	)
+	(text "ADC1"
+		(exclude_from_sim no)
+		(at 97.536 82.804 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "336a5983-9c3b-44fb-a406-6fbc1d289646")
+	)
+	(text "ADC2"
+		(exclude_from_sim no)
+		(at 188.722 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "360d2db6-ddec-4e60-a8e8-f33e2c4cc144")
+	)
+	(text "ADC1"
+		(exclude_from_sim no)
+		(at 97.536 85.344 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3869eb1d-3de5-471f-85e7-dc5162f633ca")
+	)
+	(text "ADC1"
+		(exclude_from_sim no)
+		(at 97.79 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "46ef71c1-f48f-4fec-b505-692c252b58f6")
+	)
+	(text "ADC2"
+		(exclude_from_sim no)
+		(at 103.378 82.804 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "478ab493-f598-4020-8c3c-9b758c6b2cf3")
+	)
+	(text "ADC1"
+		(exclude_from_sim no)
+		(at 182.88 54.864 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4cd5010c-b396-4043-af1e-8e107167504f")
+	)
+	(text "ADC1"
+		(exclude_from_sim no)
+		(at 97.79 75.184 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "50adaf17-70ee-483b-86ca-725db2f73f0e")
+	)
+	(text "ADC3"
+		(exclude_from_sim no)
+		(at 109.474 75.184 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5a195b60-eebb-43ca-b311-cf576a9e2d32")
+	)
 	(text "ESP32?"
 		(exclude_from_sim no)
 		(at 100.33 67.564 0)
@@ -3000,6 +3140,16 @@
 		)
 		(uuid "5ca4adc1-77d8-4bd0-99d4-1bf27a47f5ad")
 	)
+	(text "ADC2"
+		(exclude_from_sim no)
+		(at 103.632 75.184 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5cc93429-4c2a-4837-a656-1177c6f39953")
+	)
 	(text "ST-LINK"
 		(exclude_from_sim no)
 		(at 98.298 98.044 0)
@@ -3010,6 +3160,16 @@
 			(justify left)
 		)
 		(uuid "5eb70a0f-9e8e-42d3-b1b9-96c9b978bdf5")
+	)
+	(text "ADC2"
+		(exclude_from_sim no)
+		(at 188.722 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6161b1be-e5e8-4c19-a6ff-8f306913893f")
 	)
 	(text "ADDR: 0b1010000 0x50"
 		(exclude_from_sim no)
@@ -3033,6 +3193,66 @@
 		)
 		(uuid "6ff29e39-86c1-4c43-950b-b424796d82b9")
 	)
+	(text "ADC3"
+		(exclude_from_sim no)
+		(at 194.564 54.864 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "73c04fc8-f9bc-436a-a31d-3b846004ad70")
+	)
+	(text "ADC1"
+		(exclude_from_sim no)
+		(at 182.88 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7f8d423f-3f33-42c7-8e2e-dddf22fabd6a")
+	)
+	(text "ADC2"
+		(exclude_from_sim no)
+		(at 103.378 85.344 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "872c7404-b486-4f8d-8a77-100e216330e1")
+	)
+	(text "ADC3"
+		(exclude_from_sim no)
+		(at 109.22 72.644 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8905cbda-ca2b-42a3-842d-59bc9db2567d")
+	)
+	(text "ADC3"
+		(exclude_from_sim no)
+		(at 194.564 59.944 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a2f47b79-66cd-42d3-a4cf-ef84f92cdd34")
+	)
+	(text "ADC2"
+		(exclude_from_sim no)
+		(at 103.632 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a43c4cd7-c758-4cc4-8496-c4dfa9f72d54")
+	)
 	(text "External\n[Li-Dar]"
 		(exclude_from_sim no)
 		(at 188.722 121.92 0)
@@ -3055,6 +3275,76 @@
 		)
 		(uuid "adff8378-3bf9-4d13-a709-ed6597e6d913")
 	)
+	(text "ADC3"
+		(exclude_from_sim no)
+		(at 194.564 57.404 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b92132ee-09a0-4418-aa80-199385b03d4a")
+	)
+	(text "ADC1"
+		(exclude_from_sim no)
+		(at 182.88 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bac8625f-99f8-4e3f-a9ff-4604c614b5f3")
+	)
+	(text "ADC2"
+		(exclude_from_sim no)
+		(at 103.378 72.644 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "be9dc98f-c051-421f-a1e2-3f8dd1c7bfce")
+	)
+	(text "ADC1"
+		(exclude_from_sim no)
+		(at 97.79 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c229097e-0470-4177-9acc-780a2a31f78a")
+	)
+	(text "ADC3"
+		(exclude_from_sim no)
+		(at 109.474 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c30153ce-3443-4012-9192-87a4ba9044e3")
+	)
+	(text "ADC3"
+		(exclude_from_sim no)
+		(at 109.474 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ca91bb23-5240-4fb4-9554-77e5ceaaaabf")
+	)
+	(text "ADC2"
+		(exclude_from_sim no)
+		(at 188.722 59.944 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cb424658-6754-44db-80c7-7692d1f74f15")
+	)
 	(text "ST-LINK"
 		(exclude_from_sim no)
 		(at 188.722 85.344 0)
@@ -3066,6 +3356,56 @@
 		)
 		(uuid "cb46719e-9660-4bd2-bc54-5c78799c2e25")
 	)
+	(text "ADC1"
+		(exclude_from_sim no)
+		(at 182.88 57.404 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cd84de3c-7bdf-464b-8432-0f2bf8bfce23")
+	)
+	(text "ADC2"
+		(exclude_from_sim no)
+		(at 191.262 95.758 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d04fa6d6-47b5-4f52-ae07-aa95ff76aff3")
+	)
+	(text "ADC1"
+		(exclude_from_sim no)
+		(at 182.88 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "da931045-4482-4748-8248-f3bbd048a5b6")
+	)
+	(text "ADC3"
+		(exclude_from_sim no)
+		(at 194.564 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dab547c8-d681-448e-a786-8aa172027f63")
+	)
+	(text "ADC2"
+		(exclude_from_sim no)
+		(at 188.722 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e3d0b45c-1d01-4b2c-95f5-41e1b63d62e7")
+	)
 	(text "External\n[IMU]"
 		(exclude_from_sim no)
 		(at 189.23 129.54 0)
@@ -3076,6 +3416,46 @@
 			(justify right)
 		)
 		(uuid "e7065542-51e7-40da-87a7-e385b5a90c98")
+	)
+	(text "ADC2"
+		(exclude_from_sim no)
+		(at 188.722 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f10287a6-1f05-4b3c-b77c-b7716686ac97")
+	)
+	(text "ADC1"
+		(exclude_from_sim no)
+		(at 182.88 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fb3dd036-5452-4284-9c85-2ec5953bcbfe")
+	)
+	(text "ADC1"
+		(exclude_from_sim no)
+		(at 97.536 72.644 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fb50930e-8190-4c87-b566-121a8239525c")
+	)
+	(text "ADC1"
+		(exclude_from_sim no)
+		(at 182.88 59.944 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fd2f49b6-1689-42ce-8988-92e5651aa706")
 	)
 	(text_box "Dodać jakieś ledy do debugu (chociaż 3)\n\nDodać wyjścia na czujniki(Wszystkie pozostałe wyjścia na goldpiny)\r\n"
 		(exclude_from_sim no)

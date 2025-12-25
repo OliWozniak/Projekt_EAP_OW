@@ -857,6 +857,14 @@
       {
         "netclass": "Analog",
         "pattern": "/Photodiodes/V_{REF}"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Power/+5V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Power/+3V3"
       }
     ]
   },
