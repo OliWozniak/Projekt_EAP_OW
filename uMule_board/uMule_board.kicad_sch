@@ -3168,16 +3168,6 @@
 				(justify left top)
 			)
 		)
-		(pin "+3V3" output
-			(at 80.01 45.72 0)
-			(uuid "0253a519-4507-4219-ae58-3f89f0378e43")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "+5V" output
 			(at 80.01 43.18 0)
 			(uuid "4cb10ad4-6ff2-4445-85e6-8b234a72b92d")
@@ -3241,6 +3231,16 @@
 		(pin "-5V" output
 			(at 80.01 48.26 0)
 			(uuid "c66aa7c9-e47e-400a-892b-05ec5c1e404a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+3V3_POW" output
+			(at 80.01 45.72 0)
+			(uuid "54a558f3-5025-47bd-9395-af58db605e70")
 			(effects
 				(font
 					(size 1.27 1.27)

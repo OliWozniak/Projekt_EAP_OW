@@ -865,6 +865,10 @@
       {
         "netclass": "Power",
         "pattern": "/Power/+3V3"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Power/+3V3_POW"
       }
     ]
   },
