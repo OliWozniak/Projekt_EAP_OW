@@ -869,6 +869,14 @@
       {
         "netclass": "Power",
         "pattern": "/Power/+3V3_POW"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "/MCU/PC8{slash}I2C3_SCL"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "/MCU/PC9{slash}I2C3_SDA"
       }
     ]
   },
