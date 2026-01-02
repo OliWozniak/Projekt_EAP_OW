@@ -3303,6 +3303,18 @@
 		(uuid 0d511b2f-7b11-4628-8afc-8d3dd8a953fc)
 	)
 	(rectangle
+		(start 201.93 91.44)
+		(end 227.33 93.98)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 14fb85df-2a6a-421b-b21d-bf14849deb8b)
+	)
+	(rectangle
 		(start 201.93 48.26)
 		(end 229.87 53.34)
 		(stroke
@@ -3351,8 +3363,8 @@
 		(uuid d10d2590-4ac1-44b7-bbda-88597aca9aeb)
 	)
 	(rectangle
-		(start 166.37 81.28)
-		(end 139.7 86.36)
+		(start 139.7 81.28)
+		(end 166.37 86.36)
 		(stroke
 			(width 0)
 			(type dash)
@@ -3363,8 +3375,8 @@
 		(uuid dfbda3b8-e233-4734-bc5c-0b9572217794)
 	)
 	(rectangle
-		(start 201.93 111.506)
-		(end 227.33 119.126)
+		(start 201.93 111.76)
+		(end 227.33 116.586)
 		(stroke
 			(width 0)
 			(type dash)
@@ -3440,6 +3452,17 @@
 			(justify left)
 		)
 		(uuid "100abf5a-d65f-40d8-832c-25d2138fdeaa")
+	)
+	(text "RS485\n"
+		(exclude_from_sim no)
+		(at 227.33 92.964 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "20ad6b7a-cf3e-4ec5-b24f-9ae969cb511f")
 	)
 	(text "ADC2_IN11/USART1_RX"
 		(exclude_from_sim no)
@@ -3592,7 +3615,7 @@
 	)
 	(text "RS485\n"
 		(exclude_from_sim no)
-		(at 227.33 113.03 0)
+		(at 227.33 113.284 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4621,16 +4644,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 97.79) (xy 201.93 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fed6916-0072-43e1-a00f-0cbeab30e62d")
-	)
-	(wire
-		(pts
 			(xy 88.9 158.75) (xy 88.9 157.48)
 		)
 		(stroke
@@ -4818,6 +4831,16 @@
 			(type default)
 		)
 		(uuid "88d333d5-9c3d-4a6c-9243-8f6ab5b64675")
+	)
+	(wire
+		(pts
+			(xy 201.93 95.25) (xy 238.76 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89c89cf4-2a90-47d6-90a5-64f929dbe972")
 	)
 	(wire
 		(pts
@@ -5271,6 +5294,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 97.79) (xy 238.76 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c393da39-e1da-4048-8d62-063886a3057f")
+	)
+	(wire
+		(pts
 			(xy 189.23 20.32) (xy 195.58 20.32)
 		)
 		(stroke
@@ -5278,6 +5311,16 @@
 			(type default)
 		)
 		(uuid "c724b127-2c40-45db-b2d8-5dd6696187e1")
+	)
+	(wire
+		(pts
+			(xy 201.93 100.33) (xy 238.76 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca671623-5ff2-4af2-8e09-f37a0e3bf646")
 	)
 	(wire
 		(pts
@@ -5318,16 +5361,6 @@
 			(type default)
 		)
 		(uuid "d0d391bb-7c97-4654-9b94-7771c886f650")
-	)
-	(wire
-		(pts
-			(xy 223.52 100.33) (xy 201.93 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4e18ec1-dbc1-4ffe-a268-3ac2a6a05b10")
 	)
 	(wire
 		(pts
@@ -5448,16 +5481,6 @@
 			(type default)
 		)
 		(uuid "e37d34fa-dbdd-483f-b585-eab59ff36c1d")
-	)
-	(wire
-		(pts
-			(xy 223.52 95.25) (xy 201.93 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8620742-b42f-43d8-8fff-33b5c8ebda71")
 	)
 	(wire
 		(pts
@@ -8585,7 +8608,7 @@
 		(uuid "1bbf45a2-8571-4bd4-9b22-74843b621b49")
 	)
 	(label "DBG_LED0"
-		(at 223.52 95.25 180)
+		(at 238.76 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8615,7 +8638,7 @@
 		(uuid "6f5d8f52-25a5-4ce5-96dd-adbd594843cf")
 	)
 	(label "DBG_LED2"
-		(at 223.52 100.33 180)
+		(at 238.76 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8625,7 +8648,7 @@
 		(uuid "82729ce0-d340-4e8c-b50d-d7eae4b1db6a")
 	)
 	(label "DBG_LED1"
-		(at 223.52 97.79 180)
+		(at 238.76 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8717,6 +8740,17 @@
 		)
 		(uuid "04681dc5-1e25-4a5f-8503-aaf723646bd8")
 	)
+	(hierarchical_label "PC7{slash}I2C4_SDA"
+		(shape bidirectional)
+		(at 50.8 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0cd4cdd9-0591-4c81-9c69-7542e3a78e27")
+	)
 	(hierarchical_label "PC6{slash}I2C4_SCL"
 		(shape output)
 		(at 166.37 82.55 180)
@@ -8749,17 +8783,6 @@
 			(justify right)
 		)
 		(uuid "10a6a994-fa7a-4316-88bb-7265c2941b4b")
-	)
-	(hierarchical_label "PC9{slash}I2C3_SDA"
-		(shape bidirectional)
-		(at 50.8 166.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "222368c3-4b33-436c-9162-06a2d31f7a94")
 	)
 	(hierarchical_label "PA8{slash}GPIO"
 		(shape bidirectional)
@@ -8816,8 +8839,8 @@
 		)
 		(uuid "32a42da0-5288-4a78-bc01-71989fb45528")
 	)
-	(hierarchical_label "PB2{slash}GPIO"
-		(shape bidirectional)
+	(hierarchical_label "PB2{slash}RS485FC"
+		(shape output)
 		(at 201.93 92.71 0)
 		(effects
 			(font
@@ -9014,8 +9037,19 @@
 		)
 		(uuid "87a94078-8c01-47cf-8a70-652894ed3a48")
 	)
-	(hierarchical_label "PB12{slash}RS485_FC"
+	(hierarchical_label "PC6{slash}I2C4_SCL"
 		(shape output)
+		(at 50.8 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9203ad3e-72c9-4b05-a486-50b4d9c1bdf6")
+	)
+	(hierarchical_label "PB12{slash}ADC41_IN3_11"
+		(shape input)
 		(at 201.93 118.11 0)
 		(effects
 			(font
@@ -9035,6 +9069,17 @@
 			(justify left)
 		)
 		(uuid "9bfdd327-f54e-43c4-bbc7-cd0e4252a5a2")
+	)
+	(hierarchical_label "PC12{slash}GPIO"
+		(shape bidirectional)
+		(at 166.37 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a2dd26bd-6fdf-4884-a824-19be29df9f94")
 	)
 	(hierarchical_label "PA3{slash}UART2_RX"
 		(shape input)
@@ -9157,7 +9202,7 @@
 		)
 		(uuid "e5e5b6e3-c46a-4438-91fa-b60baae761ff")
 	)
-	(hierarchical_label "PC3{slash}ADC12_IN9"
+	(hierarchical_label "PC3{slash}GPIO"
 		(shape bidirectional)
 		(at 166.37 74.93 180)
 		(effects
@@ -9222,17 +9267,6 @@
 			(justify left)
 		)
 		(uuid "fa588551-ade7-41b5-890e-2bc1f6db5fa0")
-	)
-	(hierarchical_label "PC8{slash}I2C3_SCL"
-		(shape output)
-		(at 50.8 168.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fa90cd7f-2043-42a6-90e4-c253477d20f6")
 	)
 	(symbol
 		(lib_id "Device:C")

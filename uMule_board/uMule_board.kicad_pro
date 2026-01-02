@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.1
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -521,7 +521,7 @@
         "pcb_color": "rgb(196, 9, 255)",
         "priority": 4,
         "schematic_color": "rgb(196, 9, 255)",
-        "track_width": 0.127,
+        "track_width": 0.15,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -544,7 +544,7 @@
         "pcb_color": "rgb(96, 93, 217)",
         "priority": 0,
         "schematic_color": "rgb(96, 93, 217)",
-        "track_width": 0.127,
+        "track_width": 0.15,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -557,7 +557,7 @@
         "pcb_color": "rgb(255, 116, 0)",
         "priority": 2,
         "schematic_color": "rgb(255, 116, 0)",
-        "track_width": 0.127,
+        "track_width": 0.15,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -570,7 +570,7 @@
         "pcb_color": "rgb(12, 117, 255)",
         "priority": 3,
         "schematic_color": "rgb(12, 117, 255)",
-        "track_width": 0.127,
+        "track_width": 0.15,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -877,6 +877,14 @@
       {
         "netclass": "I2C",
         "pattern": "/MCU/PC9{slash}I2C3_SDA"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "/MCU/PC6{slash}I2C4_SCL"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "/MCU/PC7{slash}I2C4_SDA"
       }
     ]
   },
