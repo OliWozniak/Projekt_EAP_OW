@@ -3072,7 +3072,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SON:VSON-8-1EP_3x3mm_P0.65mm_EP1.65x2.4mm"
+		(property "Footprint" "Package_SON:Texas_S-PVSON-N8"
 			(at 66.04 62.23 0)
 			(effects
 				(font
